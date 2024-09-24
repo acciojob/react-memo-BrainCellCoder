@@ -20,6 +20,7 @@ const ReactMemo = memo(({ todos, setTodos }) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Add Skill"
+        id="skill-input"
       />
       <button onClick={addSkill}>Add Skill</button>
       <ul>

@@ -10,9 +10,11 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div id="main">
       <h1>React.useMemo</h1>
-      <button onClick={addTodo}>Add Todo</button>
+      <button onClick={addTodo} id="add-todo-btn">
+        Add Todo
+      </button>
       <UseMemo />
       <ReactMemo todos={todos} setTodos={setTodos} />
     </div>

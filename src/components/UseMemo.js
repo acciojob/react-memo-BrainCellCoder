@@ -19,7 +19,9 @@ const UseMemo = () => {
     <div>
       <h2>My todos</h2>
       <p>Count: {count}</p>
-      <button onClick={increment}>+</button>
+      <button onClick={increment} id="incr-cnt">
+        +
+      </button>
       <p>Expensive Calculation: {expensiveCalculation}</p>
     </div>
   );
